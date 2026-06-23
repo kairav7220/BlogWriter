@@ -10,6 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white" alt="Python 3.11"/>
+  <img src="https://img.shields.io/badge/LangChain-LCEL-important?logo=langchain" alt="LangChain"/>
   <img src="https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/Mistral-LLM-blue" alt="Mistral"/>
   <img src="https://img.shields.io/badge/DuckDuckGo-Search-orange" alt="DuckDuckGo"/>
