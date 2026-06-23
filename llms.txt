@@ -1,0 +1,22 @@
+# BlogWriter
+
+## Description
+Automated blog post generator using Streamlit, LangChain, Mistral AI, and DuckDuckGo web search.
+
+## Tech Stack
+Python 3.11, Streamlit, Mistral Large, LangChain, DuckDuckGo Search
+
+## Core Files
+- agent.py: Single-file Streamlit app — DuckDuckGo search → Mistral prompt → blog output
+
+## Key Patterns
+- Sequential chain: RunnableLambda(web_search_node) | prompt | llm
+- web_search_node invokes DuckDuckGoSearchRun with user topic
+- Blog prompt with strict 400-word limit, temperature 0.9
+- Token safety: max_tokens=1000
+
+## Entry Point
+streamlit run agent.py
+
+## API Keys (.env)
+MISTRAL_API_KEY
